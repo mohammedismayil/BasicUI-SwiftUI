@@ -21,6 +21,10 @@
 		397016C6281E2BA9006747D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39701698281E2BA8006747D6 /* Persistence.swift */; };
 		397016C7281E2BA9006747D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39701699281E2BA8006747D6 /* Assets.xcassets */; };
 		397016C8281E2BA9006747D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39701699281E2BA8006747D6 /* Assets.xcassets */; };
+		397016D8281E2CFA006747D6 /* SaveTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016D7281E2CFA006747D6 /* SaveTimeView.swift */; };
+		397016D9281E2CFA006747D6 /* SaveTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016D7281E2CFA006747D6 /* SaveTimeView.swift */; };
+		397016DB281E2EE2006747D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016DA281E2EE2006747D6 /* LoginView.swift */; };
+		397016DC281E2EE2006747D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016DA281E2EE2006747D6 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,8 @@
 		397016B7281E2BA9006747D6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		397016BB281E2BA9006747D6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		397016BD281E2BA9006747D6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		397016D7281E2CFA006747D6 /* SaveTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTimeView.swift; sourceTree = "<group>"; };
+		397016DA281E2EE2006747D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,8 @@
 			children = (
 				39701696281E2BA8006747D6 /* BasicUI_SwiftUIApp.swift */,
 				39701697281E2BA8006747D6 /* ContentView.swift */,
+				397016D7281E2CFA006747D6 /* SaveTimeView.swift */,
+				397016DA281E2EE2006747D6 /* LoginView.swift */,
 				39701698281E2BA8006747D6 /* Persistence.swift */,
 				39701699281E2BA8006747D6 /* Assets.xcassets */,
 				39701694281E2BA8006747D6 /* BasicUI_SwiftUI.xcdatamodeld */,
@@ -307,6 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397016DB281E2EE2006747D6 /* LoginView.swift in Sources */,
+				397016D8281E2CFA006747D6 /* SaveTimeView.swift in Sources */,
 				397016C1281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
 				397016C5281E2BA9006747D6 /* Persistence.swift in Sources */,
 				397016BF281E2BA9006747D6 /* BasicUI_SwiftUI.xcdatamodeld in Sources */,
@@ -318,6 +328,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397016DC281E2EE2006747D6 /* LoginView.swift in Sources */,
+				397016D9281E2CFA006747D6 /* SaveTimeView.swift in Sources */,
 				397016C2281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
 				397016C6281E2BA9006747D6 /* Persistence.swift in Sources */,
 				397016C0281E2BA9006747D6 /* BasicUI_SwiftUI.xcdatamodeld in Sources */,
