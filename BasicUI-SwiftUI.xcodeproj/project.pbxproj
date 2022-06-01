@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3913624F2847D851007DAF92 /* XelaMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913624E2847D851007DAF92 /* XelaMusicView.swift */; };
+		391362502847D851007DAF92 /* XelaMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913624E2847D851007DAF92 /* XelaMusicView.swift */; };
+		391362522847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391362512847DE14007DAF92 /* XelaHomeArtistView.swift */; };
+		391362532847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391362512847DE14007DAF92 /* XelaHomeArtistView.swift */; };
 		397016B0281E2BA9006747D6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016AF281E2BA9006747D6 /* Tests_iOS.swift */; };
 		397016B2281E2BA9006747D6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016B1281E2BA9006747D6 /* Tests_iOSLaunchTests.swift */; };
 		397016BC281E2BA9006747D6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016BB281E2BA9006747D6 /* Tests_macOS.swift */; };
@@ -47,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3913624E2847D851007DAF92 /* XelaMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XelaMusicView.swift; sourceTree = "<group>"; };
+		391362512847DE14007DAF92 /* XelaHomeArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XelaHomeArtistView.swift; sourceTree = "<group>"; };
 		39701695281E2BA8006747D6 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		39701696281E2BA8006747D6 /* BasicUI_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUI_SwiftUIApp.swift; sourceTree = "<group>"; };
 		39701697281E2BA8006747D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +122,8 @@
 				39701697281E2BA8006747D6 /* ContentView.swift */,
 				397016D7281E2CFA006747D6 /* SaveTimeView.swift */,
 				397016DA281E2EE2006747D6 /* LoginView.swift */,
+				3913624E2847D851007DAF92 /* XelaMusicView.swift */,
+				391362512847DE14007DAF92 /* XelaHomeArtistView.swift */,
 				398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */,
 				39701698281E2BA8006747D6 /* Persistence.swift */,
 				39701699281E2BA8006747D6 /* Assets.xcassets */,
@@ -321,8 +329,10 @@
 			files = (
 				397016DB281E2EE2006747D6 /* LoginView.swift in Sources */,
 				397016D8281E2CFA006747D6 /* SaveTimeView.swift in Sources */,
+				391362522847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */,
 				397016C1281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
 				397016C5281E2BA9006747D6 /* Persistence.swift in Sources */,
+				3913624F2847D851007DAF92 /* XelaMusicView.swift in Sources */,
 				397016BF281E2BA9006747D6 /* BasicUI_SwiftUI.xcdatamodeld in Sources */,
 				398E2B062826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */,
 				397016C3281E2BA9006747D6 /* ContentView.swift in Sources */,
@@ -335,8 +345,10 @@
 			files = (
 				397016DC281E2EE2006747D6 /* LoginView.swift in Sources */,
 				397016D9281E2CFA006747D6 /* SaveTimeView.swift in Sources */,
+				391362532847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */,
 				397016C2281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
 				397016C6281E2BA9006747D6 /* Persistence.swift in Sources */,
+				391362502847D851007DAF92 /* XelaMusicView.swift in Sources */,
 				397016C0281E2BA9006747D6 /* BasicUI_SwiftUI.xcdatamodeld in Sources */,
 				398E2B072826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */,
 				397016C4281E2BA9006747D6 /* ContentView.swift in Sources */,
