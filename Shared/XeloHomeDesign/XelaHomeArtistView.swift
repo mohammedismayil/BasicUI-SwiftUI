@@ -20,11 +20,11 @@ struct XelaHomeArtistView: View {
                     .shadow(radius: 10)
                     .frame(width: 75, height: 75)
                 } placeholder: {
-                    Color.gray.opacity(0.1)
+                    Color.white.opacity(1)
                 }
                
-                Text("Edsheeran")
-        }
+                Text("EdsheeranEdsheeran")
+        }.frame(width: 100, height: 120)
     }
 }
 
