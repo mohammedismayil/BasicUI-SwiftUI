@@ -9,13 +9,19 @@ import SwiftUI
 
 struct XelaMusicView: View {
     var body: some View {
-        Text("Browse Music")
         
-      
-        XeloHomeArtistSection()
-        XeloHomeNewReleasesSection()
-        XHTopweeklySection()
-       Spacer()
+        ScrollView{
+            Text("Browse Music")
+            
+          
+            XeloHomeArtistSection()
+            XeloHomeNewReleasesSection()
+            XHTopweeklySection()
+            XeloHomeNewReleasesSection()
+            XeloHomeNewReleasesSection()
+           Spacer()
+        }
+       
     }
 }
 

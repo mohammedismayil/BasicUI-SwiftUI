@@ -9,6 +9,8 @@ import SwiftUI
 
 struct XHTopweeklySection: View {
     var body: some View {
+        
+        
         HStack{
            
             Text("Top Weekly").bold().padding(.leading, 20)
@@ -18,7 +20,7 @@ struct XHTopweeklySection: View {
         }.padding(.top,30)
        
       
-       
+        ScrollView{
           
         VStack(alignment: .leading){
                     XHTopweeklyCell()
@@ -26,10 +28,16 @@ struct XHTopweeklySection: View {
                     XHTopweeklyCell()
                     XHTopweeklyCell()
                     XHTopweeklyCell()
+            XHTopweeklyCell()
+            XHTopweeklyCell()
+            XHTopweeklyCell()
+            XHTopweeklyCell()
+            XHTopweeklyCell()
                     
         }.padding(.leading, 10)
                
            
+    }
     }
 }
 
