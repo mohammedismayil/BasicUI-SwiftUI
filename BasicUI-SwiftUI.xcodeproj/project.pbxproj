@@ -21,6 +21,7 @@
 		394B976828484FEE000DF61D /* XHTopweeklySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B976628484FEE000DF61D /* XHTopweeklySection.swift */; };
 		394B976A28485193000DF61D /* XHTopweeklyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B976928485193000DF61D /* XHTopweeklyCell.swift */; };
 		394B976B28485193000DF61D /* XHTopweeklyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B976928485193000DF61D /* XHTopweeklyCell.swift */; };
+		39526495285ECDF90034B1B5 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39526494285ECDF90034B1B5 /* WelcomeScreen.swift */; };
 		397016B0281E2BA9006747D6 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016AF281E2BA9006747D6 /* Tests_iOS.swift */; };
 		397016B2281E2BA9006747D6 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016B1281E2BA9006747D6 /* Tests_iOSLaunchTests.swift */; };
 		397016BC281E2BA9006747D6 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397016BB281E2BA9006747D6 /* Tests_macOS.swift */; };
@@ -68,6 +69,7 @@
 		394B976328484AA6000DF61D /* XHNewReleasesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHNewReleasesCell.swift; sourceTree = "<group>"; };
 		394B976628484FEE000DF61D /* XHTopweeklySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHTopweeklySection.swift; sourceTree = "<group>"; };
 		394B976928485193000DF61D /* XHTopweeklyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHTopweeklyCell.swift; sourceTree = "<group>"; };
+		39526494285ECDF90034B1B5 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		39701695281E2BA8006747D6 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		39701696281E2BA8006747D6 /* BasicUI_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUI_SwiftUIApp.swift; sourceTree = "<group>"; };
 		39701697281E2BA8006747D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,14 @@
 			path = XeloHomeDesign;
 			sourceTree = "<group>";
 		};
+		39526493285ECD040034B1B5 /* Anastasia-CryptoDesign */ = {
+			isa = PBXGroup;
+			children = (
+				39526494285ECDF90034B1B5 /* WelcomeScreen.swift */,
+			);
+			path = "Anastasia-CryptoDesign";
+			sourceTree = "<group>";
+		};
 		3970168E281E2BA8006747D6 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 				397016DA281E2EE2006747D6 /* LoginView.swift */,
 				394B976C28485538000DF61D /* XeloHomeDesign */,
 				398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */,
+				39526493285ECD040034B1B5 /* Anastasia-CryptoDesign */,
 				39701698281E2BA8006747D6 /* Persistence.swift */,
 				39701699281E2BA8006747D6 /* Assets.xcassets */,
 				39701694281E2BA8006747D6 /* BasicUI_SwiftUI.xcdatamodeld */,
@@ -367,6 +378,7 @@
 				3913624F2847D851007DAF92 /* XelaMusicView.swift in Sources */,
 				397016BF281E2BA9006747D6 /* BasicUI_SwiftUI.xcdatamodeld in Sources */,
 				398E2B062826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */,
+				39526495285ECDF90034B1B5 /* WelcomeScreen.swift in Sources */,
 				397016C3281E2BA9006747D6 /* ContentView.swift in Sources */,
 				394B976128484A74000DF61D /* XeloHomeNewReleasesSection.swift in Sources */,
 			);
