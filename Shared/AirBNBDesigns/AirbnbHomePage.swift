@@ -13,7 +13,7 @@ struct AirbnbHomePage: View {
     var body: some View {
 //        ZStack(alignment: .top){
            
-            
+        ScrollView{
             HStack{
                 TextField("Anywhere", text: $location)
                     .padding(.all)
@@ -25,31 +25,36 @@ struct AirbnbHomePage: View {
                     .frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight * 0.35, alignment: .center)
             } .frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight * 0.35, alignment: .center)
             
-            
-            Text("Explore Airbnb")
+        HStack{
+            Text("Explore Airbnb").padding(.leading,15)
+            Spacer()
+        }
+           
         
         HStack{
             HStack{
                 Image(uiImage: UIImage(named: "rooms1")!).resizable()
-                    .frame(width: 50, height: 50, alignment: .center)
-                    .cornerRadius(10)
+                    .frame(width: 60, height: 60, alignment: .center)
+                    .cornerRadius(15).padding([.top,.bottom], 10).padding(.leading,10)
                 
                 Text("Stays")
-            }.frame(width: UIScreen.screenWidth / 2, height: 50, alignment: .leading)
-                .shadow(color: .red, radius: 5, x: 20, y: 20)
+            }.frame(width: (UIScreen.screenWidth / 2)-15 , height: 80, alignment: .leading)
+                .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 2).background(Color.gray).cornerRadius(15)
             
             HStack{
                 Image(uiImage: UIImage(named: "rooms1")!).resizable()
-                    .frame(width: 50, height: 50, alignment: .center)
-                    .cornerRadius(10)
+                    .frame(width: 60, height: 60, alignment: .center)
+                    .cornerRadius(15).padding([.top,.bottom], 10).padding(.leading,10)
                 
                 Text("Experiences")
-            }.frame(width: UIScreen.screenWidth / 2, height: 50, alignment: .leading)
-            .shadow(radius: 5)
-        }.padding(.horizontal, 20)
+            }.frame(width: (UIScreen.screenWidth / 2)-15 , height: 80, alignment: .leading)
+                .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 2).background(Color.gray).cornerRadius(15)
+           
+        }
+        HostExperienceSection()
         
-            
-            
+            HostExperienceSection()
+            HostExperienceSection()
             
            
            
@@ -58,6 +63,8 @@ struct AirbnbHomePage: View {
         
         Spacer()
         
+        }
+            
     }
 }
 

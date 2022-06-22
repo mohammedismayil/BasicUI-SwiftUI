@@ -11,6 +11,8 @@
 		391362502847D851007DAF92 /* XelaMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913624E2847D851007DAF92 /* XelaMusicView.swift */; };
 		391362522847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391362512847DE14007DAF92 /* XelaHomeArtistView.swift */; };
 		391362532847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391362512847DE14007DAF92 /* XelaHomeArtistView.swift */; };
+		39253F5A2862B6B500A75EB7 /* HostExperienceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39253F592862B6B500A75EB7 /* HostExperienceSection.swift */; };
+		39253F5B2862B6B500A75EB7 /* HostExperienceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39253F592862B6B500A75EB7 /* HostExperienceSection.swift */; };
 		394B975E28484A33000DF61D /* XeloHomeArtistSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B975D28484A33000DF61D /* XeloHomeArtistSection.swift */; };
 		394B975F28484A33000DF61D /* XeloHomeArtistSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B975D28484A33000DF61D /* XeloHomeArtistSection.swift */; };
 		394B976128484A74000DF61D /* XeloHomeNewReleasesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B976028484A74000DF61D /* XeloHomeNewReleasesSection.swift */; };
@@ -66,6 +68,7 @@
 /* Begin PBXFileReference section */
 		3913624E2847D851007DAF92 /* XelaMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XelaMusicView.swift; sourceTree = "<group>"; };
 		391362512847DE14007DAF92 /* XelaHomeArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XelaHomeArtistView.swift; sourceTree = "<group>"; };
+		39253F592862B6B500A75EB7 /* HostExperienceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostExperienceSection.swift; sourceTree = "<group>"; };
 		394B975D28484A33000DF61D /* XeloHomeArtistSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeloHomeArtistSection.swift; sourceTree = "<group>"; };
 		394B976028484A74000DF61D /* XeloHomeNewReleasesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeloHomeNewReleasesSection.swift; sourceTree = "<group>"; };
 		394B976328484AA6000DF61D /* XHNewReleasesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHNewReleasesCell.swift; sourceTree = "<group>"; };
@@ -216,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				397753DB286234F800472A68 /* AirbnbHomePage.swift */,
+				39253F592862B6B500A75EB7 /* HostExperienceSection.swift */,
 			);
 			path = AirBNBDesigns;
 			sourceTree = "<group>";
@@ -389,6 +393,7 @@
 				397016C1281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
 				397016C5281E2BA9006747D6 /* Persistence.swift in Sources */,
 				3913624F2847D851007DAF92 /* XelaMusicView.swift in Sources */,
+				39253F5A2862B6B500A75EB7 /* HostExperienceSection.swift in Sources */,
 				397016BF281E2BA9006747D6 /* BasicUI_SwiftUI.xcdatamodeld in Sources */,
 				398E2B062826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */,
 				39526495285ECDF90034B1B5 /* WelcomeScreen.swift in Sources */,
@@ -402,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				394B976528484AA6000DF61D /* XHNewReleasesCell.swift in Sources */,
+				39253F5B2862B6B500A75EB7 /* HostExperienceSection.swift in Sources */,
 				394B976828484FEE000DF61D /* XHTopweeklySection.swift in Sources */,
 				397016DC281E2EE2006747D6 /* LoginView.swift in Sources */,
 				397753DD286234F800472A68 /* AirbnbHomePage.swift in Sources */,
