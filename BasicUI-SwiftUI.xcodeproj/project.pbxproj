@@ -48,6 +48,10 @@
 		397753DD286234F800472A68 /* AirbnbHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397753DB286234F800472A68 /* AirbnbHomePage.swift */; };
 		398E2B062826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */; };
 		398E2B072826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */; };
+		39EC99312877289100AAD65D /* TrustWalletHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC99302877289100AAD65D /* TrustWalletHome.swift */; };
+		39EC99322877289100AAD65D /* TrustWalletHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC99302877289100AAD65D /* TrustWalletHome.swift */; };
+		39EC99342877303200AAD65D /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC99332877303200AAD65D /* CustomColors.swift */; };
+		39EC99352877303200AAD65D /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC99332877303200AAD65D /* CustomColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,8 @@
 		397016DA281E2EE2006747D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		397753DB286234F800472A68 /* AirbnbHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbHomePage.swift; sourceTree = "<group>"; };
 		398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyRecoveryPhrase.swift; sourceTree = "<group>"; };
+		39EC99302877289100AAD65D /* TrustWalletHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustWalletHome.swift; sourceTree = "<group>"; };
+		39EC99332877303200AAD65D /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,7 @@
 				39701697281E2BA8006747D6 /* ContentView.swift */,
 				397016D7281E2CFA006747D6 /* SaveTimeView.swift */,
 				397016DA281E2EE2006747D6 /* LoginView.swift */,
+				39EC99332877303200AAD65D /* CustomColors.swift */,
 				397753DA286234CC00472A68 /* AirBNBDesigns */,
 				394B976C28485538000DF61D /* XeloHomeDesign */,
 				398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */,
@@ -224,6 +231,7 @@
 				397753DB286234F800472A68 /* AirbnbHomePage.swift */,
 				39253F592862B6B500A75EB7 /* HostExperienceSection.swift */,
 				392A65022863814D004E8B62 /* CustomTabBar.swift */,
+				39EC99302877289100AAD65D /* TrustWalletHome.swift */,
 			);
 			path = AirBNBDesigns;
 			sourceTree = "<group>";
@@ -389,8 +397,10 @@
 				394B976428484AA6000DF61D /* XHNewReleasesCell.swift in Sources */,
 				394B976728484FEE000DF61D /* XHTopweeklySection.swift in Sources */,
 				397016DB281E2EE2006747D6 /* LoginView.swift in Sources */,
+				39EC99312877289100AAD65D /* TrustWalletHome.swift in Sources */,
 				397753DC286234F800472A68 /* AirbnbHomePage.swift in Sources */,
 				392A65032863814D004E8B62 /* CustomTabBar.swift in Sources */,
+				39EC99342877303200AAD65D /* CustomColors.swift in Sources */,
 				394B975E28484A33000DF61D /* XeloHomeArtistSection.swift in Sources */,
 				394B976A28485193000DF61D /* XHTopweeklyCell.swift in Sources */,
 				397016D8281E2CFA006747D6 /* SaveTimeView.swift in Sources */,
@@ -415,6 +425,7 @@
 				39253F5B2862B6B500A75EB7 /* HostExperienceSection.swift in Sources */,
 				394B976828484FEE000DF61D /* XHTopweeklySection.swift in Sources */,
 				397016DC281E2EE2006747D6 /* LoginView.swift in Sources */,
+				39EC99322877289100AAD65D /* TrustWalletHome.swift in Sources */,
 				397753DD286234F800472A68 /* AirbnbHomePage.swift in Sources */,
 				394B975F28484A33000DF61D /* XeloHomeArtistSection.swift in Sources */,
 				394B976B28485193000DF61D /* XHTopweeklyCell.swift in Sources */,
@@ -426,6 +437,7 @@
 				391362502847D851007DAF92 /* XelaMusicView.swift in Sources */,
 				397016C0281E2BA9006747D6 /* BasicUI_SwiftUI.xcdatamodeld in Sources */,
 				398E2B072826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */,
+				39EC99352877303200AAD65D /* CustomColors.swift in Sources */,
 				397016C4281E2BA9006747D6 /* ContentView.swift in Sources */,
 				394B976228484A74000DF61D /* XeloHomeNewReleasesSection.swift in Sources */,
 			);

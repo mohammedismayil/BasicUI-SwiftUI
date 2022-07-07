@@ -13,8 +13,11 @@ struct ContentView: View {
     
     var body: some View {
 
-        Spacer()
-        CustomTabBar()
+//        Spacer()
+//        CustomTabBar()
+        
+        
+        TrustWalletHome()
     }
 
     

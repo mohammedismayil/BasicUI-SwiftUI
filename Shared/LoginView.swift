@@ -111,6 +111,7 @@ extension UIScreen{
 struct PrimaryButtonStyle: ButtonStyle {
 
 var backgroundColor: Color = Color(hex: "#e85b37")
+    
 var textColor: Color = Color.white
 var height: CGFloat = 50
 var cornerRadius: CGFloat = 5

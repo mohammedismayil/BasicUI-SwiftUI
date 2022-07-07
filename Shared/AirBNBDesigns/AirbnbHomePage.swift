@@ -61,9 +61,9 @@ struct AirbnbHomePage: View {
 //        }
        
         
-        Spacer()
+//        Spacer()
         
-        }
+        }.padding(.bottom, 100)
             
     }
 }
