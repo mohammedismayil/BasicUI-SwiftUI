@@ -40,23 +40,7 @@ struct LoginView: View {
                 } .padding(.top, 20).padding(.bottom,10)
               
                 VStack{
-                    HStack {
-                        Text("PASSWORD").tracking(1.5).font(.subheadline)
-                        Spacer()
-                        Button(action: {
-                                        isSecured.toggle()
-                                    }) {
-                                        Image(systemName: self.isSecured ? "eye.slash" : "eye")
-                                            .accentColor(.gray)
-                                    }
-                    }
-                    
-                   
-                        if isSecured {
-                                            SecureField("title", text: $password)
-                                        } else {
-                                            TextField("title", text: $password)
-                                        }
+                    PasswordTF(isSecured: $isSecured, password: $password)
                 }
                 
                     
@@ -73,7 +57,7 @@ struct LoginView: View {
                 Spacer()
                 
                 HStack(spacing: 20) {
-                     Button("Signin", action: { print("login")})
+                     Button("Signin", action: { checkValidInputs()})
                             .buttonStyle(PrimaryButtonStyle())
                      
                 }.padding(.top,10)
@@ -99,6 +83,16 @@ struct LoginView: View {
         }
         
         
+    }
+    
+    func checkValidInputs(){
+        if (username.isEmpty){
+            print("enter username")
+        }else if(password.isEmpty){
+            print("enter password")
+        }else{
+            print("call login api")
+        }
     }
 }
 

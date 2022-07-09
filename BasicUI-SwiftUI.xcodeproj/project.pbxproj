@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3903BA072879B8940084AC8A /* PasswordTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903BA062879B8940084AC8A /* PasswordTF.swift */; };
 		3913624F2847D851007DAF92 /* XelaMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913624E2847D851007DAF92 /* XelaMusicView.swift */; };
 		391362502847D851007DAF92 /* XelaMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913624E2847D851007DAF92 /* XelaMusicView.swift */; };
 		391362522847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391362512847DE14007DAF92 /* XelaHomeArtistView.swift */; };
@@ -72,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3903BA062879B8940084AC8A /* PasswordTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTF.swift; sourceTree = "<group>"; };
 		3913624E2847D851007DAF92 /* XelaMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XelaMusicView.swift; sourceTree = "<group>"; };
 		391362512847DE14007DAF92 /* XelaHomeArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XelaHomeArtistView.swift; sourceTree = "<group>"; };
 		39253F592862B6B500A75EB7 /* HostExperienceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostExperienceSection.swift; sourceTree = "<group>"; };
@@ -136,6 +138,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3903BA052879B8750084AC8A /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3903BA062879B8940084AC8A /* PasswordTF.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
 		394B976C28485538000DF61D /* XeloHomeDesign */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +187,7 @@
 				397016D7281E2CFA006747D6 /* SaveTimeView.swift */,
 				397016DA281E2EE2006747D6 /* LoginView.swift */,
 				39EC99332877303200AAD65D /* CustomColors.swift */,
+				3903BA052879B8750084AC8A /* UIComponents */,
 				397753DA286234CC00472A68 /* AirBNBDesigns */,
 				394B976C28485538000DF61D /* XeloHomeDesign */,
 				398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */,
@@ -400,6 +411,7 @@
 				39EC99312877289100AAD65D /* TrustWalletHome.swift in Sources */,
 				397753DC286234F800472A68 /* AirbnbHomePage.swift in Sources */,
 				392A65032863814D004E8B62 /* CustomTabBar.swift in Sources */,
+				3903BA072879B8940084AC8A /* PasswordTF.swift in Sources */,
 				39EC99342877303200AAD65D /* CustomColors.swift in Sources */,
 				394B975E28484A33000DF61D /* XeloHomeArtistSection.swift in Sources */,
 				394B976A28485193000DF61D /* XHTopweeklyCell.swift in Sources */,
