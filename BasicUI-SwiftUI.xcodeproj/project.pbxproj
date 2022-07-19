@@ -16,6 +16,7 @@
 		39253F5B2862B6B500A75EB7 /* HostExperienceSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39253F592862B6B500A75EB7 /* HostExperienceSection.swift */; };
 		392A65032863814D004E8B62 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392A65022863814D004E8B62 /* CustomTabBar.swift */; };
 		392A65042863814D004E8B62 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392A65022863814D004E8B62 /* CustomTabBar.swift */; };
+		393D1ABE288655D8002499FC /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D1ABD288655D8002499FC /* Snackbar.swift */; };
 		394B975E28484A33000DF61D /* XeloHomeArtistSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B975D28484A33000DF61D /* XeloHomeArtistSection.swift */; };
 		394B975F28484A33000DF61D /* XeloHomeArtistSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B975D28484A33000DF61D /* XeloHomeArtistSection.swift */; };
 		394B976128484A74000DF61D /* XeloHomeNewReleasesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B976028484A74000DF61D /* XeloHomeNewReleasesSection.swift */; };
@@ -78,6 +79,7 @@
 		391362512847DE14007DAF92 /* XelaHomeArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XelaHomeArtistView.swift; sourceTree = "<group>"; };
 		39253F592862B6B500A75EB7 /* HostExperienceSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostExperienceSection.swift; sourceTree = "<group>"; };
 		392A65022863814D004E8B62 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		393D1ABD288655D8002499FC /* Snackbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
 		394B975D28484A33000DF61D /* XeloHomeArtistSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeloHomeArtistSection.swift; sourceTree = "<group>"; };
 		394B976028484A74000DF61D /* XeloHomeNewReleasesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeloHomeNewReleasesSection.swift; sourceTree = "<group>"; };
 		394B976328484AA6000DF61D /* XHNewReleasesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XHNewReleasesCell.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				3903BA062879B8940084AC8A /* PasswordTF.swift */,
+				393D1ABD288655D8002499FC /* Snackbar.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				39EC99342877303200AAD65D /* CustomColors.swift in Sources */,
 				394B975E28484A33000DF61D /* XeloHomeArtistSection.swift in Sources */,
 				394B976A28485193000DF61D /* XHTopweeklyCell.swift in Sources */,
+				393D1ABE288655D8002499FC /* Snackbar.swift in Sources */,
 				397016D8281E2CFA006747D6 /* SaveTimeView.swift in Sources */,
 				391362522847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */,
 				397016C1281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
