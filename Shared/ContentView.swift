@@ -17,7 +17,7 @@ struct ContentView: View {
 //        CustomTabBar()
         
         
-        LoginView()
+        CounterView(vm: CounterVM())
     }
 
     

@@ -14,19 +14,34 @@ struct PasswordTF: View {
         HStack {
             Text("PASSWORD").tracking(1.5).font(.subheadline)
             Spacer()
-            Button(action: {
-                            isSecured.toggle()
-                        }) {
-                            Image(systemName: self.isSecured ? "eye.slash" : "eye")
-                                .accentColor(.gray)
-                        }
+           
         }
         
        
             if isSecured {
-                                SecureField("title", text: $password)
+                
+                HStack{
+                    SecureField("title", text: $password)
+    Button(action: {
+                    isSecured.toggle()
+                }) {
+                    Image(systemName: self.isSecured ? "eye.slash" : "eye")
+                        .accentColor(.gray)
+                }
+                }
+                              
                             } else {
-                                TextField("title", text: $password)
+                                
+                                HStack{
+                                    TextField("title", text: $password)
+                                    Button(action: {
+                                                    isSecured.toggle()
+                                                }) {
+                                                    Image(systemName: self.isSecured ? "eye.slash" : "eye")
+                                                        .accentColor(.gray)
+                                                }
+                                }
+                              
                             }
     }
 }
