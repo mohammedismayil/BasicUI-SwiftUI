@@ -21,7 +21,10 @@ struct CounterView: View {
                 Button("Increment") {
                     vm.incrementCounter()
                 }
-                NavigationLink(destination: LoginView()) {
+                Button("Decrement") {
+                    vm.decrementCounter()
+                }
+                NavigationLink(destination: CounterDetailView(vm: vm)) {
                                    Text("Do Something")
                                }
             }

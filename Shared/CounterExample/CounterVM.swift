@@ -15,4 +15,9 @@ import UIKit
         func incrementCounter() {
             count += 1
         }
+     
+     
+     func decrementCounter(){
+         count -= 1
+     }
 }
