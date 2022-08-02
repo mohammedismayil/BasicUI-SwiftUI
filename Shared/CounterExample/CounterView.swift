@@ -16,7 +16,7 @@ struct CounterView: View {
                 Text("Counter View")
                 
                 
-                Text("\(vm.count)")
+                Text("\(getCounterValue())")
                 
                 
                 Text("Environmental count\(enVM.count)")
@@ -29,13 +29,24 @@ struct CounterView: View {
                     vm.decrementCounter()
                     enVM.decrementCounter()
                 }
-                NavigationLink(destination: CounterDetailView(vm: CounterVM()).environmentObject(enVM)) {
+                NavigationLink(destination: CounterDetailView().environmentObject(enVM)) {
                                    Text("Move to Detail")
                                }
             }
         }.environmentObject(enVM)
         
        
+    }
+    
+    
+    func observeVMChanges(){
+        print("Observing \(vm.count)")
+    }
+    
+    func getCounterValue() -> Int{
+        
+        print("Observing getting \(vm.count)")
+        return vm.count
     }
 }
 

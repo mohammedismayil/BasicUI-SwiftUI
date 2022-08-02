@@ -18,6 +18,10 @@ struct CounterDetailView: View {
         
         
         Button("Increment") {
+            
+            //even after incrementing this scoped counter to 1 it again changed to 0 . Why?
+            //culprit is  enVM.incrementCounter() change the global environment variable counter ,so CounterView get rebuilded again ,hence CounterDetailView got initiated again , when initiating CounterDetailView the local vm value again initialised to zero
+            //hours of debuggin man
             vm.incrementCounter()
             enVM.incrementCounter()
         }
