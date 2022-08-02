@@ -17,7 +17,7 @@ struct ContentView: View {
 //        CustomTabBar()
         
         
-        CounterView(vm: CounterVM())
+        CounterView(vm: CounterVM()).environmentObject(CounterVM())
     }
 
     
