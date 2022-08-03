@@ -19,21 +19,21 @@ struct CounterView: View {
                 Text("\(getCounterValue())")
                 
                 
-                Text("Environmental count\(enVM.count)")
+//                Text("Environmental count\(enVM.count)")
                 
                 Button("Increment") {
                     vm.incrementCounter()
-                    enVM.incrementCounter()
+//                    enVM.incrementCounter()
                 }
                 Button("Decrement") {
                     vm.decrementCounter()
-                    enVM.decrementCounter()
+//                    enVM.decrementCounter()
                 }
                 NavigationLink(destination: CounterDetailView().environmentObject(enVM)) {
                                    Text("Move to Detail")
                                }
             }
-        }.environmentObject(enVM)
+        }
         
        
     }
@@ -45,7 +45,7 @@ struct CounterView: View {
     
     func getCounterValue() -> Int{
         
-        print("Observing getting \(vm.count)")
+        print("Observing in CounterView \(vm.count)")
         return vm.count
     }
 }

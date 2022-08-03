@@ -52,6 +52,10 @@
 		397753DD286234F800472A68 /* AirbnbHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397753DB286234F800472A68 /* AirbnbHomePage.swift */; };
 		398E2B062826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */; };
 		398E2B072826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */; };
+		39D4301C289A12BD001AE3E3 /* CounterDetail2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4301B289A12BC001AE3E3 /* CounterDetail2View.swift */; };
+		39D4301D289A12BD001AE3E3 /* CounterDetail2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4301B289A12BC001AE3E3 /* CounterDetail2View.swift */; };
+		39D4301F289A2E0A001AE3E3 /* CounterDetail3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4301E289A2E0A001AE3E3 /* CounterDetail3View.swift */; };
+		39D43020289A2E0A001AE3E3 /* CounterDetail3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4301E289A2E0A001AE3E3 /* CounterDetail3View.swift */; };
 		39DF3FB82894CFBD00ADE33E /* CounterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF3FB72894CFBD00ADE33E /* CounterVM.swift */; };
 		39DF3FB92894CFBD00ADE33E /* CounterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF3FB72894CFBD00ADE33E /* CounterVM.swift */; };
 		39DF3FBC2894CFFB00ADE33E /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF3FBB2894CFFB00ADE33E /* CounterView.swift */; };
@@ -111,6 +115,8 @@
 		397016DA281E2EE2006747D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		397753DB286234F800472A68 /* AirbnbHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbHomePage.swift; sourceTree = "<group>"; };
 		398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyRecoveryPhrase.swift; sourceTree = "<group>"; };
+		39D4301B289A12BC001AE3E3 /* CounterDetail2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDetail2View.swift; sourceTree = "<group>"; };
+		39D4301E289A2E0A001AE3E3 /* CounterDetail3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDetail3View.swift; sourceTree = "<group>"; };
 		39DF3FB72894CFBD00ADE33E /* CounterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterVM.swift; sourceTree = "<group>"; };
 		39DF3FBB2894CFFB00ADE33E /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		39EC99302877289100AAD65D /* TrustWalletHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustWalletHome.swift; sourceTree = "<group>"; };
@@ -266,6 +272,8 @@
 				39DF3FB72894CFBD00ADE33E /* CounterVM.swift */,
 				39DF3FBB2894CFFB00ADE33E /* CounterView.swift */,
 				392041A32896F84D001DDA31 /* CounterDetailView.swift */,
+				39D4301B289A12BC001AE3E3 /* CounterDetail2View.swift */,
+				39D4301E289A2E0A001AE3E3 /* CounterDetail3View.swift */,
 			);
 			path = CounterExample;
 			sourceTree = "<group>";
@@ -431,6 +439,7 @@
 				394B976428484AA6000DF61D /* XHNewReleasesCell.swift in Sources */,
 				394B976728484FEE000DF61D /* XHTopweeklySection.swift in Sources */,
 				397016DB281E2EE2006747D6 /* LoginView.swift in Sources */,
+				39D4301C289A12BD001AE3E3 /* CounterDetail2View.swift in Sources */,
 				39EC99312877289100AAD65D /* TrustWalletHome.swift in Sources */,
 				397753DC286234F800472A68 /* AirbnbHomePage.swift in Sources */,
 				392A65032863814D004E8B62 /* CustomTabBar.swift in Sources */,
@@ -442,6 +451,7 @@
 				397016D8281E2CFA006747D6 /* SaveTimeView.swift in Sources */,
 				391362522847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */,
 				392041A42896F84D001DDA31 /* CounterDetailView.swift in Sources */,
+				39D4301F289A2E0A001AE3E3 /* CounterDetail3View.swift in Sources */,
 				397016C1281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
 				397016C5281E2BA9006747D6 /* Persistence.swift in Sources */,
 				3913624F2847D851007DAF92 /* XelaMusicView.swift in Sources */,
@@ -461,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				394B976528484AA6000DF61D /* XHNewReleasesCell.swift in Sources */,
+				39D4301D289A12BD001AE3E3 /* CounterDetail2View.swift in Sources */,
 				39253F5B2862B6B500A75EB7 /* HostExperienceSection.swift in Sources */,
 				394B976828484FEE000DF61D /* XHTopweeklySection.swift in Sources */,
 				397016DC281E2EE2006747D6 /* LoginView.swift in Sources */,
@@ -471,6 +482,7 @@
 				394B976B28485193000DF61D /* XHTopweeklyCell.swift in Sources */,
 				397016D9281E2CFA006747D6 /* SaveTimeView.swift in Sources */,
 				392A65042863814D004E8B62 /* CustomTabBar.swift in Sources */,
+				39D43020289A2E0A001AE3E3 /* CounterDetail3View.swift in Sources */,
 				391362532847DE14007DAF92 /* XelaHomeArtistView.swift in Sources */,
 				397016C2281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
 				397016C6281E2BA9006747D6 /* Persistence.swift in Sources */,

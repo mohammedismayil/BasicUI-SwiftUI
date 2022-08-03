@@ -1,13 +1,13 @@
 //
-//  CounterDetailView.swift
+//  CounterDetail2View.swift
 //  BasicUI-SwiftUI
 //
-//  Created by Mohammed Ismayil on 31/07/22.
+//  Created by Mohammed Ismayil on 03/08/22.
 //
 
 import SwiftUI
 
-struct CounterDetailView: View {
+struct CounterDetail2View: View {
     @EnvironmentObject var enVM : CounterVM
     @ObservedObject var vm = CounterVM()
     var body: some View {
@@ -30,22 +30,20 @@ struct CounterDetailView: View {
             enVM.decrementCounter()
         }
         
-        NavigationLink(destination: CounterDetail2View().environmentObject(enVM)) {
+        NavigationLink(destination: CounterDetail3View().environmentObject(enVM)) {
                            Text("Move to Detail")
                        }
-        
-        
     }
     
     func getCounterValue() -> Int{
         
-        print("Observing in DetailView \(vm.count)")
+        print("Observing in CounterDetail2View \(vm.count)")
         return vm.count
     }
 }
 
-struct CounterDetailView_Previews: PreviewProvider {
+struct CounterDetail2View_Previews: PreviewProvider {
     static var previews: some View {
-        CounterDetailView()
+        CounterDetail2View()
     }
 }
