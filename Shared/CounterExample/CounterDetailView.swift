@@ -10,8 +10,11 @@ import SwiftUI
 struct CounterDetailView: View {
     @EnvironmentObject var enVM : CounterVM
     @ObservedObject var vm = CounterVM()
+    
+    
     var body: some View {
-        Text("Counter Details")
+        
+        Text("Counter 1 Details")
         
         Text("\(getCounterValue())")
         Text("Environmental count\(enVM.count)")

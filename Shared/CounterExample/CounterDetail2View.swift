@@ -11,7 +11,7 @@ struct CounterDetail2View: View {
     @EnvironmentObject var enVM : CounterVM
     @ObservedObject var vm = CounterVM()
     var body: some View {
-        Text("Counter Details")
+        Text("Counter 2 Details")
         
         Text("\(getCounterValue())")
         Text("Environmental count\(enVM.count)")
