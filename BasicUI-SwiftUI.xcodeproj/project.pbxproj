@@ -60,6 +60,9 @@
 		39DF3FB92894CFBD00ADE33E /* CounterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF3FB72894CFBD00ADE33E /* CounterVM.swift */; };
 		39DF3FBC2894CFFB00ADE33E /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF3FBB2894CFFB00ADE33E /* CounterView.swift */; };
 		39DF3FBD2894CFFB00ADE33E /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DF3FBB2894CFFB00ADE33E /* CounterView.swift */; };
+		39E2A058294D621B00C2DA68 /* MuverickTaskHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E2A057294D621B00C2DA68 /* MuverickTaskHomeView.swift */; };
+		39E2A05A294D684C00C2DA68 /* HomeProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E2A059294D684C00C2DA68 /* HomeProductView.swift */; };
+		39E2A05C294D6C4400C2DA68 /* MuverickCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E2A05B294D6C4400C2DA68 /* MuverickCartView.swift */; };
 		39EC99312877289100AAD65D /* TrustWalletHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC99302877289100AAD65D /* TrustWalletHome.swift */; };
 		39EC99322877289100AAD65D /* TrustWalletHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC99302877289100AAD65D /* TrustWalletHome.swift */; };
 		39EC99342877303200AAD65D /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EC99332877303200AAD65D /* CustomColors.swift */; };
@@ -119,6 +122,9 @@
 		39D4301E289A2E0A001AE3E3 /* CounterDetail3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDetail3View.swift; sourceTree = "<group>"; };
 		39DF3FB72894CFBD00ADE33E /* CounterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterVM.swift; sourceTree = "<group>"; };
 		39DF3FBB2894CFFB00ADE33E /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		39E2A057294D621B00C2DA68 /* MuverickTaskHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuverickTaskHomeView.swift; sourceTree = "<group>"; };
+		39E2A059294D684C00C2DA68 /* HomeProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductView.swift; sourceTree = "<group>"; };
+		39E2A05B294D6C4400C2DA68 /* MuverickCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuverickCartView.swift; sourceTree = "<group>"; };
 		39EC99302877289100AAD65D /* TrustWalletHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustWalletHome.swift; sourceTree = "<group>"; };
 		39EC99332877303200AAD65D /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +216,7 @@
 				397753DA286234CC00472A68 /* AirBNBDesigns */,
 				394B976C28485538000DF61D /* XeloHomeDesign */,
 				398E2B052826E5CD00714DE9 /* VerifyRecoveryPhrase.swift */,
+				39E2A056294D61E300C2DA68 /* MuverickTask */,
 				39526493285ECD040034B1B5 /* Anastasia-CryptoDesign */,
 				39701698281E2BA8006747D6 /* Persistence.swift */,
 				39701699281E2BA8006747D6 /* Assets.xcassets */,
@@ -276,6 +283,16 @@
 				39D4301E289A2E0A001AE3E3 /* CounterDetail3View.swift */,
 			);
 			path = CounterExample;
+			sourceTree = "<group>";
+		};
+		39E2A056294D61E300C2DA68 /* MuverickTask */ = {
+			isa = PBXGroup;
+			children = (
+				39E2A057294D621B00C2DA68 /* MuverickTaskHomeView.swift */,
+				39E2A05B294D6C4400C2DA68 /* MuverickCartView.swift */,
+				39E2A059294D684C00C2DA68 /* HomeProductView.swift */,
+			);
+			path = MuverickTask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,6 +459,7 @@
 				39D4301C289A12BD001AE3E3 /* CounterDetail2View.swift in Sources */,
 				39EC99312877289100AAD65D /* TrustWalletHome.swift in Sources */,
 				397753DC286234F800472A68 /* AirbnbHomePage.swift in Sources */,
+				39E2A058294D621B00C2DA68 /* MuverickTaskHomeView.swift in Sources */,
 				392A65032863814D004E8B62 /* CustomTabBar.swift in Sources */,
 				3903BA072879B8940084AC8A /* PasswordTF.swift in Sources */,
 				39EC99342877303200AAD65D /* CustomColors.swift in Sources */,
@@ -453,12 +471,14 @@
 				392041A42896F84D001DDA31 /* CounterDetailView.swift in Sources */,
 				39D4301F289A2E0A001AE3E3 /* CounterDetail3View.swift in Sources */,
 				397016C1281E2BA9006747D6 /* BasicUI_SwiftUIApp.swift in Sources */,
+				39E2A05C294D6C4400C2DA68 /* MuverickCartView.swift in Sources */,
 				397016C5281E2BA9006747D6 /* Persistence.swift in Sources */,
 				3913624F2847D851007DAF92 /* XelaMusicView.swift in Sources */,
 				39DF3FB82894CFBD00ADE33E /* CounterVM.swift in Sources */,
 				39253F5A2862B6B500A75EB7 /* HostExperienceSection.swift in Sources */,
 				397016BF281E2BA9006747D6 /* BasicUI_SwiftUI.xcdatamodeld in Sources */,
 				398E2B062826E5CD00714DE9 /* VerifyRecoveryPhrase.swift in Sources */,
+				39E2A05A294D684C00C2DA68 /* HomeProductView.swift in Sources */,
 				39526495285ECDF90034B1B5 /* WelcomeScreen.swift in Sources */,
 				397016C3281E2BA9006747D6 /* ContentView.swift in Sources */,
 				394B976128484A74000DF61D /* XeloHomeNewReleasesSection.swift in Sources */,

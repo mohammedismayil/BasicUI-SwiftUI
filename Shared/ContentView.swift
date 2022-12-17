@@ -17,7 +17,11 @@ struct ContentView: View {
 //        CustomTabBar()
         
         
-        CounterView(vm: CounterVM()).environmentObject(CounterVM())
+//        CounterView(vm: CounterVM()).environmentObject(CounterVM())
+        
+//        XelaMusicView()
+        
+        MuverickTaskHomeView()
     }
 
     
