@@ -35,8 +35,18 @@ struct MuverickTaskHomeView: View {
 //            }
             if #available(iOS 16.0, *) {
                 
-              
+                
                     List {
+                        
+                        HStack{
+                            Text("Products")
+                            Spacer()
+                           
+                                            NavigationLink(destination:MuverickCartView(cart: cart)) {
+                                                Image(systemName: "cart").font(.title)
+                                            }
+                           
+                        }
                         
                         ForEach(products) { item in
                             //                NavigationLink {
@@ -96,12 +106,15 @@ struct MuverickTaskHomeView: View {
                                 
                                 Spacer()
                             }
-//                            .frame(width: UIScreen.main.bounds.width , height: 100, alignment: .center).padding(10).background(Color.gray)
                             
-                        }.listRowBackground(Color.green)
+                            .background(Rectangle().fill(Color.gray))
+                            .cornerRadius(5)
+                            .frame( height: 100, alignment: .center).padding(10)
+                            
+                        }
                             .listRowInsets( EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0) )
                         
-                    }.listRowSeparator(.hidden).scrollContentBackground(.hidden).background(Color.yellow)
+                    }.listRowSeparator(.hidden).scrollContentBackground(.hidden)
                
                 
             }else {
